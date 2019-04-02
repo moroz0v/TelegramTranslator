@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "routes": [{ 
+    "src": "/new-message", 
+    "dest": "/index.js",
+    "headers": { "Content-Type": "application/json" },
+    "methods": ["POST"] }
+  ],
+  "env": {
+    "GOOGLE_TRANSLATE_API_KEY": "@google-translate-key",
+    "TELEGRAM_BOT_ID": "@telegram-bot-id"
+  },
+  "builds": [{ "src": "index.js", "use": "@now/node" }]
+}

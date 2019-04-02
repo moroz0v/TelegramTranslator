@@ -1,0 +1,32 @@
+{
+  "name": "bot-morozov",
+  "version": "1.0.0",
+  "description": "telegram bot to use Google translate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "translate-bot"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "translate",
+    "google",
+    "translate"
+  ],
+  "author": "Sergey Morozov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body": "^5.1.0",
+    "google-translate": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
