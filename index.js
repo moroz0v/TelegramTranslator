@@ -39,11 +39,15 @@ export default ( req, res ) => {
             {
               chat_id: message.chat.id,
               text: 
-`${ message.from.first_name } said:
-"${ message.text }" 
+`:wave: :speech_balloon: :sweat_smile:
 
-In Russian, it means
-"${ translation.translatedText }"`
+:ru: 
+"${ message.text }"
+
+:us: 
+"${ translation.translatedText }"
+
+:bulb: :relaxed: :raised_hands:`
             }
         ).then( response => {
           console.log( 'Success' )
